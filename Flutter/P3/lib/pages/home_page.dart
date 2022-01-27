@@ -81,11 +81,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   Row(children: <Widget>[
                     Container(
-                      width: 288.0,
+                      width: 270.0,
                       height: 68.3,
                       color: color_top_screen,
                       child: Padding(
-                        padding: const EdgeInsets.only(top: 25.0, left: 150.0),
+                        padding: const EdgeInsets.only(top: 25.0, left: 130.0),
                         child: Text(
                           "Balance Available",
                           style: TextStyle(
@@ -99,16 +99,14 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 122,
                       height: 68.3,
                       color: color_top_screen,
-                      child: Padding(
-                        padding: const EdgeInsets.only(right: 180.0),
                         child: IconButton(
                             onPressed: null,
                             icon: Icon(
                               Icons.remove_red_eye_outlined,
                               color: Colors.white,
                             )),
-                      ),
                     ),
+                    Spacer()
                   ]),
                   Container(
                     width: 206.0,
