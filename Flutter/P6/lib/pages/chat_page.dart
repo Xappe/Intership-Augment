@@ -28,7 +28,6 @@ class _ChatPage extends State<ChatPage> {
         resizeToAvoidBottomInset: false,
         body: Container(
           width: 412.0,
-          height: 685.0,
           color: Color(0xffE3E5E3),
           child: Column(children: <Widget>[
             Container(
